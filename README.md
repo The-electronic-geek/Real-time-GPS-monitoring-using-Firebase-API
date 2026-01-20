@@ -41,11 +41,20 @@ ESP32 5V - NEO-6M VCC
 6. ESP32 accumulates STM32 data until newline, then marks it as updated.
 
 7. A JSON object is created with keys for latitude, longitude, and STM32 data.
+/LSET_VOL → Latitude
 
-8. Every 1000 ms, ESP32 uploads JSON to Firebase under /Sensor.
+/FARM_VOL → Longitude
 
-9. Firebase stores data in Realtime Database or Firestore for cloud access.
+/STM32_DATA → Sensor data string
 
-10. Mobile apps or dashboards read updates instantly from Firebase.
+9. Every 1000 ms, ESP32 uploads JSON to Firebase under /Sensor.
 
-11. ESP32 prints debug logs and Firebase status messages on UART0 which can also be viewed on serial monitor for debugging.
+10. Firebase stores data in Realtime Database or Firestore for cloud access.
+
+11. Mobile apps or dashboards read updates instantly from Firebase.
+
+12. ESP32 prints debug logs and Firebase status messages on UART0 which can also be viewed on serial monitor for debugging.
+
+## FIREBASE INTERFACE
+
+![Firebase_GPS](https://github.com/user-attachments/assets/35053015-4b39-48c0-a463-81e519b4ee4b)
