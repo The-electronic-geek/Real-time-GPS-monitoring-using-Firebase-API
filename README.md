@@ -18,3 +18,8 @@ ESP32 GND - NEO-6M GND
 ESP32 5V - NEO-6M VCC
 
 ## CODE AND EXPLANATIONS
+
+*Firebase_GPS_sensor.ino* contains the interfacing code. Firebase provides a lightweight, scalable way to connect embedded systems to the cloud using simple REST APIs, making it ideal for IoT projects like GPS tracking or sensor monitoring. You can send data directly from microcontrollers (ESP32, Arduino, STM32, etc.) to Firebase services such as Firestore or Realtime Database.
+
+(You can also send Data from STM32 board to ESP32 using UART, since i've used that extra functionality i'll be briefing about the same)
+
