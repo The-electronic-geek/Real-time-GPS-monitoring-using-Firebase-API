@@ -41,9 +41,10 @@ ESP32 5V - NEO-6M VCC
 6. ESP32 accumulates STM32 data until newline, then marks it as updated.
 
 7. A JSON object is created with keys for latitude, longitude, and STM32 data.
-/LSET_VOL → Latitude
+   
+/LSET_VOL → Latitude, Longitude
 
-/FARM_VOL → Longitude
+/FARM_VOL → Latitude, Longitude (extra variable for debugging)
 
 /STM32_DATA → Sensor data string
 
