@@ -1,5 +1,5 @@
 # Real-time-GPS-monitoring-using-Firebase-API
-This Repository provides a subtle and direct way to integrate Real-time cloud monitoring of GPS navigation using Firebase cloud. Arduino IDE is used for interfacing ESP-32 to *NEO-6M GPS sensor*. To make things easy, ESP32 comes with Firebase and GPS libraries which is integrated together to achieve the desired functionality.
+This Repository provides a subtle and direct way to integrate Real-time cloud monitoring of GPS navigation using Firebase cloud. Arduino IDE is used for interfacing ESP-32 to *NEO-6M GPS sensor*. To make things easy, ESP32 comes with Firebase and GPS libraries which is integrated together to achieve the desired functionality. It also includes Inter-board communication between STM32(Tx) and ESP32(Rx) using UART.
 
 Before proceeding with interfacing the code it's always good to go through Datasheet and working of the sensor module. Refer the datasheet for NEO-6M and to understand it's working watch this video:
 
@@ -23,3 +23,4 @@ ESP32 5V - NEO-6M VCC
 
 (You can also send Data from STM32 board to ESP32 using UART, since i've used that extra functionality i'll be briefing about the same)
 
+**Our Application is to integrate ESP32, STM32, and a NEO-6M GPS module with Firebase Cloud to enable real-time monitoring and logging of GPS coordinates and STM32 sensor data.**
