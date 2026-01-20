@@ -4,3 +4,4 @@ This Repository provides a subtle and direct way to integrate Real-time cloud mo
 Before proceeding with interfacing the code it's always good to go through Datasheet and working of the sensor module. Refer the datasheet for NEO-6M and to understand it's working watch this video:
 
 https://youtu.be/TK5xOWkdzMU
+(credits: Blue Butterfly - https://youtube.com/@bluebutterfly2000?si=4yI33a0iRuR1IIC7)
