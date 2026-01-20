@@ -63,4 +63,4 @@ ESP32 5V - NEO-6M VCC
 
 ## CONCLUSION
 
-The code given is provided with comments for better understanding. *While integrating include the correct libraries in order to run the operation smoothly.*
+The code given is provided with comments for better understanding. *While integrating include the updated libraries in order to run the operation smoothly.*
